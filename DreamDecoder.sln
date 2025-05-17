@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{851D5F94-4C77-440A-B765-8023BF21068F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AuthService", "AuthService", "{683E0970-88C8-42D4-879D-313168671403}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DreamService", "DreamService", "{3A02D8F9-4B90-4296-8938-2A25D3894303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AnalysisService", "AnalysisService", "{88E29764-B650-40BF-A5D3-007B68804964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageService", "ImageService", "{FABEF66A-75AB-4B35-848C-5F49C32BA9FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationService", "NotificationService", "{5CEA9E03-1FEE-470C-8806-6529CC2A1B16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserProfileService", "UserProfileService", "{3DD3754E-85A3-4E87-B805-A24D8B88AE53}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{DDEFE399-2419-4257-AF83-E078B60DB3F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0697EAEA-2FCE-4ABA-8A5B-103E2AF11A36}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamDecoder.Shared", "shared\DreamDecoder.Shared\DreamDecoder.Shared.csproj", "{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{683E0970-88C8-42D4-879D-313168671403} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{3A02D8F9-4B90-4296-8938-2A25D3894303} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{88E29764-B650-40BF-A5D3-007B68804964} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{FABEF66A-75AB-4B35-848C-5F49C32BA9FB} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{5CEA9E03-1FEE-470C-8806-6529CC2A1B16} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{3DD3754E-85A3-4E87-B805-A24D8B88AE53} = {851D5F94-4C77-440A-B765-8023BF21068F}
+		{786E4C16-C2E0-4E0F-8F01-21B5F26DCAAB} = {DDEFE399-2419-4257-AF83-E078B60DB3F6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AA77E13-6B62-438C-B93D-2DB487EB69F3}
+	EndGlobalSection
+EndGlobal
